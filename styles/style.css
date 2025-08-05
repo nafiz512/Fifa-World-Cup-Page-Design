@@ -34,6 +34,7 @@
     justify-content: space-between;
     color: white;
     border-radius: 30px;
+    margin-bottom: 120px;
 }
 
 .banner-container {
@@ -58,4 +59,75 @@
 .banner-img {
     margin: 10px 10px 0 0;
     display: block;
+}
+
+/* main style  */
+.match {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    margin-bottom: 120px;
+    gap: 30px;
+}
+
+.match-upcoming {
+    background-color: var(--dark1);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 250px;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 30px;
+}
+.btn-sec1 {
+    background-color: white;
+    color: #161616;
+}
+.match-previous {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.match-card {
+    max-width: 312px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.match-card img {
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.match-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.btn-transfer {
+    font-size: 16px;
+    padding: 4px 16px;
+    border-radius: 5px;
+    margin: 20px 0 20px 20px;
+    border: 1px solid;
+    max-width: 100px;
+}
+.match-card-icons {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.time-icon,
+.comment-icon {
+    margin-right: 10px;
 }
