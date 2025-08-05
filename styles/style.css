@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark1: #161616;
+    --btn-color: #dd0000;
+    --btn-text-color: white;
+}
+/* common style  */
+.btn-primary {
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    font-size: 20px;
+    padding: 16px 25px;
+    border-radius: 10px;
+}
+/* header style  */
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--dark1);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 30px;
+}
+
+.banner-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.banner-content {
+    max-width: 570px;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-des {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.banner-img {
+    margin: 10px 10px 0 0;
+    display: block;
+}
